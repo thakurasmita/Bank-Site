@@ -1,0 +1,2009 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL&display=swap');
+
+.container{
+    
+  
+    width: 100%;
+    height: 98vh;
+    overflow: hidden;
+    
+   
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu{
+    
+    width: 100%;
+    display:grid;
+    
+    grid-auto-flow: column;
+    background-color: white;
+
+}
+
+
+.m {
+    display: grid;
+    grid-auto-flow: column;
+    
+    
+    
+    
+}
+
+.m div{
+    margin-top: 1.5vh;
+}
+
+
+#personal{
+    margin-left:5vw;
+    
+}
+
+
+
+
+#mdropdown{
+    display: none;
+}
+
+.other{
+    display:grid;
+    grid-auto-flow: column;
+    overflow: hidden;
+    
+    
+}
+
+.other .search{
+    width: fit-content;
+    margin-left: 20vw;
+    display: flex;
+    margin-top: 1vmin; 
+    background: none;
+    border: none;
+}
+
+.other .search:hover img{
+    transition: 2s linear;
+    transform: scale(1.25);
+    
+    
+}
+.other .search img{
+    float: left;
+    width: 3vmin;
+    height: 3vmin;
+}
+.other .search a{
+    margin-left: 0.5vmax;
+    font-size:1vw;
+    text-decoration: none;
+    font-family: 'Charis SIL', serif;
+    color: black;
+    margin-top: 0.125vmax;
+}
+
+
+
+#watsapp{
+    margin-left: -5vmin;
+    padding: 0.5vw;
+    width: 4vmin;
+    height: 4vmin;
+}
+#watsapp:hover{
+    transition: 2s linear;
+    transform: scale(1.3);
+}
+
+.location{
+    margin-left: -2vw;
+    display: flex;
+    margin-top: 0.5vh;
+    width: fit-content;
+    height: fit-content;
+    
+}
+.location:hover .loc{
+    transition: 2s linear;
+    transform: scale(1.25);
+
+}
+.loc{
+    
+    float: left;
+    height: 4vmin;
+    width: 4vmin;
+}
+
+#location{
+    
+    text-decoration: none;
+    font-family: 'Charis SIL', serif;
+    color: black;
+    
+}
+.location a{
+    font-size: 2vmin;
+}
+
+
+.smenu{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1vh;
+    background: #c2d3e4;
+    height: 8vmin;
+    overflow: hidden;
+    display: grid;
+    grid-auto-flow: column;
+    
+
+    
+
+}
+
+.iconmenu{
+    background-color:azure;
+    margin-right:-100vw;
+    width: 25vw;
+    
+    display: grid;
+   
+    grid-auto-flow: row;
+}
+.icon{
+   
+    overflow: hidden;
+    display: flex;
+}
+.icon p{
+    margin-top: 1.75vmin;
+    margin-left: 3vw;
+    font-size: 2vmin;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.greet{
+    margin-top: 9vmin;
+    position: absolute;
+    display: none;
+    text-align: center;
+    
+    width: fit-content;
+    margin-left: 2vw;
+    font-size: 1vmax;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.iconmenu:hover .greet{
+    display: block;
+    
+    
+}
+
+.icon img{
+    float: left;
+    margin-left: 3vmin;
+    width: 5.5vmin;
+    height: 5vmin;
+    
+}
+
+
+.greet .main{
+            position: relative;
+            width: 15vw;
+            height: 5vh;
+            border: 1px solid black;
+            background: linear-gradient(to right, #99ccff 0%, #ff99cc 100%);
+        }
+.greet .shape{
+            position: absolute;
+            width: 1vmin;
+            height: 1vmin;
+            border: 1px solid black;
+            top:-0.65vh;
+            margin-left: 1vw;
+            border-right: none;
+            border-bottom: none;
+            background: #99ccff;
+            transform: rotate(45deg);
+
+
+        }
+
+
+.greet .main p{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 1vh;
+    color:black
+}
+
+
+.things{
+    
+    width:35vw;
+    display: grid;
+    grid-auto-flow: column;
+    
+    
+
+    
+    
+}
+.product{
+    width: 10vw;
+   
+    display: grid;
+    grid-auto-flow: row;
+}
+
+.product a p{
+    
+    
+    text-align: center;
+    font-size: 2.5vmin;
+    
+    
+}
+.subp{
+    margin-top: 8vh;
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    display: none;
+   
+    
+   
+
+}
+
+.subpList{
+    display: grid;
+    /* margin-top: 2vh; */
+    grid-auto-flow: row;
+    width: 10vw;
+    border:1px solid black;
+    background-color:silver;
+    
+    
+
+}
+.subp .main{
+            position: relative;
+            width: 40vw;
+            height: fit-content;
+            /* border: 1px solid black; */
+            
+            /* background-color: white; */
+            
+            
+            display: grid;
+            grid-auto-flow: column;
+            grid-gap: 0px;
+        }
+.subp .shape{
+            position: absolute;
+            width: 1vmin;
+            height: 1vmin;
+            border: 2px solid black;
+            top:-0.50vh;
+            margin-left: 5vw;
+            border-right: none;
+            border-bottom: none;
+            background-color:silver;
+            
+            transform: rotate(45deg);
+
+
+        }
+
+
+.subpList a{
+    padding: 3vmin;
+    border: 0.7px solid black;
+    background-color:silver;
+    color:black;
+    font-size: 2vmin;
+    text-decoration: none;
+    font-family: 'Charis SIL', serif; ;
+}
+
+
+/* Product Info Starting  */
+.subp p{
+    text-align: left;
+    text-decoration: none;
+    padding: 1vmin;
+    margin: 1vmin;
+    margin-top: 3.5vmin;
+    color:black;
+
+}
+.subp p a{
+    margin-top: 3.5vmin;
+    color: black;
+   
+    text-decoration: none;
+}
+
+
+/* Account Info */
+.subpInfo{
+    width: 30vw;
+    height: 50vh;
+    border: 2.5px solid black;
+    border-left: none;
+    background-color: #EEEEEE;
+    display: none;
+
+}
+
+.subpInfo p{
+     font-size: 1.5vmin;
+    font-family: 'Charis SIL', serif;
+}
+
+.acc{
+    float: right;
+    height: 40vmin;
+    width: 30vmin;
+}
+
+
+/* Deposite Info */
+#subpInfo2{
+
+    width: 30vw;
+    height: 50vh;
+    border: 2.5px solid black;
+    border-left: none;
+    background-color: #EEEEEE;
+    display: none;
+
+}
+#subpInfo2 p{
+    font-size: 2vmin;
+    font-family: 'Charis SIL', serif;
+    margin-top: 2vmin;
+}
+.dep{
+    margin-top: 5vmin;
+    float: right;
+    height: 30vmin;
+    width: 20vmin;
+}
+
+
+/* Cards */
+
+#subpInfo3{
+
+    width: 30vw;
+    height: 50vh;
+    border: 2.5px solid black;
+    border-left: none;
+    background-color: #EEEEEE;
+    display: none;
+
+}
+#subpInfo3 p{
+    font-size: 2vmin;
+    font-family: 'Charis SIL', serif;
+    text-align: left;
+    margin-top: 1vh;
+    
+}
+.card{
+    margin: 3vh;
+    margin-top: 5vh;
+    float: right;
+    height: 30vmin;
+    width: 20vmin;
+}
+
+
+/* Loans */
+
+
+#subpInfo4{
+
+    width: 30vw;
+    height: 50vh;
+    border: 2.5px solid black;
+    border-left: none;
+    background-color: #EEEEEE;
+    display: none;
+
+}
+
+.loan{
+    margin: 3vh;
+    margin-top: 5vh;
+    float: right;
+    height: 30vmin;
+    width: 20vmin;
+
+
+}
+#subpInfo4 p{
+    font-size: 2vmin;
+    margin: 0px;
+    font-family: 'Charis SIL', serif;
+    
+    text-align: left;
+}
+
+/* Insurance */
+
+#subpInfo5{
+
+    width: 30vw;
+    height: 50vh;
+    border: 2.5px solid black;
+    border-left: none;
+    background-color: #EEEEEE;
+    display: none;
+
+}
+
+.ins{
+    margin: 3vh;
+    margin-top: 5vh;
+    float: right;
+    height: 40vmin;
+    width: 30vmin;
+
+
+}
+#subpInfo5 p {
+    font-size: 2vmin;
+    font-family: 'Charis SIL', serif;
+    
+    
+    text-align: left;
+}
+
+
+
+.deals{
+    display: grid;
+    grid-auto-flow: column;
+    width: 10vw;
+    text-align: center;
+    
+    
+    
+}
+.deals a p{
+    text-align: center;
+    font-size: 2.5vmin;
+
+}
+.subd{
+    height: fit-content;
+    position: absolute;
+    margin-top: 8vh;
+    display: none;
+    margin-left: -10vw;
+}
+
+
+
+
+.deals .main{
+            position: relative;
+            width: 60vw;
+            
+            height: fit-content;
+            border: 1.5px solid black;
+            
+            background-color: white;
+            display: grid;
+            grid-auto-flow: column;
+            grid-gap: 0px;
+             border-radius: 20px;
+        }
+.deals .shape{
+            position: absolute;
+            width: 1vmin;
+            height: 1vmin;
+            border: 1.5px solid black;
+            top:-0.65vh;
+            margin-left: 15vw;
+            border-right: none;
+            border-bottom: none;
+            background-color:#EEEEEE;
+            
+            transform: rotate(45deg);
+
+
+        }
+
+
+/* Shop and Earn */
+
+#sne{
+    height: 40vh;
+    width:20vw;
+    background-color:#EEEEEE;
+    border-radius: 20px;
+    
+    
+}
+
+#sn1{
+    
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: 2s linear changecolor infinite;
+   
+    
+
+    
+}
+
+@keyframes changecolor {
+    0%{
+        color: white;
+    }
+    20%{
+        color: blue;
+    }
+    100%{
+        color: black;
+    }
+}
+
+
+#sne1{
+    
+    list-style:none;
+    text-align:left;
+    list-style-type:circle;
+    margin-top: 6vmin;
+}
+
+#sne1 li{
+    margin:2vmin;
+}
+
+#sne1 li a{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+
+    
+}
+
+
+
+/* Offer By Payment */
+#obp{
+     width: 20vw;
+     
+    
+}
+
+#ob1{
+     text-align: center;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: 2s linear changecolor1 infinite;
+
+}
+
+@keyframes changecolor1 {
+    0%{
+        color: white;
+    }
+    20%{
+        color:darkred
+    }
+    100%{
+        color: black;
+    }
+}
+
+
+
+#obe1{
+    
+    list-style:none;
+    text-align:left;
+    list-style-type:circle;
+    margin-top: 6vmin;
+}
+
+#obe1 li{
+    margin:7vmin;
+    margin-left: 0px;
+}
+
+#obe1 li a{
+  
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+
+    
+}
+
+/* categories  */
+
+#categories{
+    height: 40vh;
+    width: 20vw;
+    background-color:#EEEEEE;
+    border-radius: 20px;
+}
+
+#ct{
+     text-align: center;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: 2s linear changecolor2 infinite;
+
+}
+
+@keyframes changecolor2 {
+    0%{
+        color: white;
+    }
+    20%{
+        color:green;
+    }
+    100%{
+        color: black;
+    }
+}
+
+
+
+#cte{
+    
+    list-style:none;
+    text-align:left;
+    list-style-type:circle;
+    margin-top: 6vmin;
+}
+
+#cte li{
+    margin:5vmin;
+    margin-left: 0px;
+}
+
+#cte li a{
+  
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+
+    
+}
+
+
+
+/* Make payment */
+
+
+.makepayment{
+    display: grid;
+    grid-auto-flow: column;
+    width: 10vw;
+    text-align: center;
+    
+    
+    
+}
+.makepayment a p{
+    text-align: center;
+    font-size: 2vmin;
+    margin-top: 2.5vmin;
+}
+
+.subm{
+    position: absolute;
+    margin-top: 8vh;
+    
+    display: flex;
+    display: none;
+}
+
+
+
+.subm .main{
+            position: relative;
+           
+            height: fit-content;
+            /* border: 1px solid black; */
+           
+             background-color: white;
+            display: grid;
+            grid-auto-flow: column;
+            grid-gap: 0px;
+        }
+.subm .main .shape{
+            position: absolute;
+            width: 1vmin;
+            height: 1vmin;
+            border: 1px solid black;
+            top:-0.45vh;
+            margin-left: 2.5vw;
+            border-right: none;
+            border-bottom: none;
+            background-color: white;
+            /* background-color:silver; */
+            border-collapse: collapse;
+            transform: rotate(45deg);
+
+
+        }
+
+.submList{
+    width:100%;
+    
+    height: 40vh;
+    float: right;
+    display: grid;
+    grid-auto-flow: row;
+    text-align: start;
+    overflow: hidden;
+    border: 1px solid black;
+    
+    
+}
+.submList a{
+    /* text-align:start; */
+    text-align: center;
+    padding-top: 2vmin;
+    border:1px solid  black;
+    color:black;
+    font-size: 1.75vmin;
+    text-decoration: none;
+    font-family: 'Charis SIL', serif; ;
+}
+
+
+/* Money Transfer */
+.subminfo{
+    
+   width: 30vw;
+   border: 1px solid black;
+
+    display: grid;
+    grid-auto-flow: column;
+    background-color: silver;
+    display: none;
+   
+   
+}
+.transferimg{
+    margin-top: 5vmin;
+    height: 10vmin;
+    width:10vmin;
+    margin-left: 3vmax;
+}
+.subminfo ul{
+    
+    list-style-type: none;
+    
+    text-align: start;
+    
+    
+}
+.subminfo ul li{
+    margin-top: 4vmin
+
+}
+
+.subminfo ul li a{
+    
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vmin;
+}
+
+
+
+/* Bill Payment */
+.subminfo2{
+    
+   width: 30vw;
+   border: 1px solid black;
+
+    display: grid;
+    grid-auto-flow: column;
+    background-color: silver;
+    display: none;
+    
+   
+   
+}
+.billpaymentimg{
+    margin-top: 5vmin;
+    height: 10vmin;
+    width:10vmin;
+    margin-left: 3vmax;
+}
+.subminfo2 ul{
+    
+    list-style-type: none;
+    
+    text-align: start;
+    
+    
+}
+.subminfo2 ul li{
+    margin-top: 4vmin
+
+}
+
+.subminfo2 ul li a{
+    
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vmin;
+}
+
+
+
+/* Loan and Credit Card */
+
+.subminfo3{
+    
+   width: 30vw;
+   border: 1px solid black;
+
+    display: grid;
+    grid-auto-flow: column;
+    background-color: silver;
+    display: none;
+    
+   
+   
+}
+.loanncard{
+    margin-top: 5vmin;
+    height: 10vmin;
+    width:10vmin;
+    margin-left: 3vmax;
+}
+.subminfo3 ul{
+    
+    list-style-type: none;
+    
+    text-align: start;
+    
+    
+}
+.subminfo3 ul li{
+    margin-top: 4vmin
+
+}
+
+.subminfo3 ul li a{
+    
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vmin;
+}
+
+
+
+
+
+/* Investment */
+
+
+.subminfo4{
+    
+   width: 30vw;
+   border: 1px solid black;
+
+    display: grid;
+    grid-auto-flow: column;
+    background-color: silver;
+    display: none;
+    
+   
+   
+}
+.investmentimg{
+    margin-top: 5vmin;
+    height: 10vmin;
+    width:10vmin;
+    margin-left: 3vmax;
+}
+.subminfo4 ul{
+    
+    list-style-type: none;
+    
+    text-align: start;
+    
+    
+}
+.subminfo4 ul li{
+    margin-top: 4vmin
+
+}
+
+.subminfo4 ul li a{
+    
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vmin;
+}
+
+
+
+
+
+
+
+
+
+
+.login{
+    margin-top: 1.5vmin;
+    margin-left: 15vmax;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 2vw;
+}
+
+
+#login{
+    background:linear-gradient(to right, #99ccff 0%, #ff99cc 100%);
+    width: 10vmin;
+    height: 4vmin;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5vmin;
+
+
+    border-radius: 10px;
+    
+}
+#History{
+    background:linear-gradient(to right, #99ccff 0%, #ff99cc 100%);
+    width: 10vmin;
+    height: 4vmin;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5vmin;
+
+
+    border-radius: 10px;
+    
+}
+
+
+
+/* Second Part Decoration */
+
+
+.decorative{
+    height: 100%;
+    margin-left:5%;
+    margin-right:5%;
+
+    background:linear-gradient(to right,#4568dc , #b06ab3);
+    display: grid;
+    grid-auto-flow: column;
+    overflow: hidden;
+    
+
+
+}
+
+.bankimage{
+    width: 45vw;
+    
+    overflow: hidden;
+}
+.bankimage img{
+    width: 90%;
+    height: 80%;
+
+}
+
+
+.writing_text{
+
+width: 45vw;
+    
+    
+}
+
+.writing_text .welcoming{
+    width: 0ch;
+    text-align: center;
+    font-size: 2.5vw;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    overflow: hidden;
+    color: white;
+    
+    white-space: nowrap;
+    animation:text 4s ease-in-out;
+    width: 32ch;
+    margin-top: 25vh;
+}
+        
+@keyframes text {
+    0%{
+        transform:skewY(-40deg);
+    
+        width: 0ch;
+    }
+    100%{
+        transform: skew(0deg);
+        width: 32ch;
+    }
+    
+}
+
+.moto{
+
+    text-align: center;
+    font-size: 1.5vw;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    overflow: hidden;
+    color:azure;
+
+    margin-top: 20vh;
+    
+  
+    
+    
+    margin-left: 5vw;
+}
+
+.login1{
+    width: 15vw;
+    font-size: 2vw;
+
+    display: none;
+}
+.history{
+    font-size: 2vw;
+    width: 15vw;
+    display: none;
+}
+
+
+    
+
+
+
+/* Second Page */
+
+.container2{
+    height: 100vh;
+    background-image: url('bank_bg.jpeg');
+    background-size: cover;
+
+  
+    
+    margin: 5%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+    
+    
+    
+}
+
+/* Account Type and There Info */
+.Saving_info{
+    background-color:#c2d3e4;
+    height: fit-content;
+    margin: 2vmin;
+    border-radius: 10px;
+    height: 25vh;
+    
+
+
+
+}
+.Saving_info:hover{
+    background-color:#EEEEEE;
+    
+}
+.Current_info:hover{
+    background-color:#EEEEEE;
+    
+}
+.nfo_info:hover{
+    background-color:#EEEEEE;
+    
+}
+.safe_deposite:hover{
+    background-color:#EEEEEE;
+    
+}
+.public_providefund:hover{
+    background-color:#EEEEEE;
+    
+}
+.salry_info:hover{
+    background-color:#EEEEEE;
+    
+}
+
+
+.s1{
+    margin-top: 3vmin;
+    text-align: center;
+    font-size: 3vmin;
+    color: brown;
+    
+
+
+}
+
+.s1::first-letter{
+    font-size: 6vmin;
+}
+
+
+.s2{
+     margin-top: 3vmin;
+    text-align: center;
+    font-size: 2vmin;
+    font-family:monospace;
+
+
+}
+
+.Current_info{
+    background-color:#c2d3e4;
+    height: fit-content;
+    margin: 2vmin;
+    border-radius: 10px;
+    height: 25vh;
+
+
+
+}
+
+.c1{
+    margin-top: 3vmin;
+    text-align: center;
+    font-size: 3vmin;
+    color: brown;
+
+}
+.c1::first-letter{
+    font-size: 6vmin;
+}
+
+.c2{
+     margin-top: 3vmin;
+    text-align: center;
+    font-size: 2vmin;
+    font-family:monospace;
+
+
+}
+.salry_info{
+    background-color:#c2d3e4;
+    height: fit-content;
+    margin: 2vmin;
+    border-radius: 10px;
+    height: 25vh;
+
+    
+}
+.sa1{
+    margin-top: 3vmin;
+    text-align: center;
+    font-size: 3vmin;
+    color: brown;
+
+}
+.sa1::first-letter{
+    font-size: 6vmin;
+}
+
+.sa2{
+     margin-top: 3vmin;
+    text-align: center;
+    font-size: 2vmin;
+    font-family:monospace;
+
+
+
+
+}
+.nfo_info{
+    background-color:#c2d3e4;
+    height: fit-content;
+    margin: 2vmin;
+    border-radius: 10px;
+    height: 25vh;
+
+    
+}
+.n1{
+    margin-top: 3vmin;
+    text-align: center;
+    font-size: 3vmin;
+    color: brown;
+
+}
+.n1::first-letter{
+    font-size: 6vmin;
+}
+
+.n2{
+     margin-top: 3vmin;
+    text-align: center;
+    font-size: 1.75vmin;
+    font-family:monospace;
+
+
+}
+
+
+
+
+.safe_deposite{
+    background-color:#c2d3e4;
+    height: fit-content;
+    margin: 2vmin;
+    border-radius: 10px;
+    height: 25vh;
+
+    
+}
+.se1{
+    margin-top: 3vmin;
+    text-align: center;
+    font-size: 3vmin;
+    color: brown;
+
+}
+.se1::first-letter{
+    font-size: 6vmin;
+}
+
+.se2{
+     margin-top: 3vmin;
+    text-align: center;
+    font-size: 2vmin;
+    font-family:monospace;
+
+
+}
+
+
+.safe_deposite{
+    background-color:#c2d3e4;
+    height: fit-content;
+    margin: 2vmin;
+    border-radius: 10px;
+    height: 25vh;
+
+    
+}
+.se1{
+    margin-top: 3vmin;
+    text-align: center;
+    font-size: 3vmin;
+    color: brown;
+
+}
+.se1::first-letter{
+    font-size: 6vmin;
+}
+
+.se2{
+     margin-top: 3vmin;
+    text-align: center;
+    font-size: 2vmin;
+    font-family:monospace;
+
+
+}
+
+
+.public_providefund{
+    background-color:#c2d3e4;
+    height: fit-content;
+    margin: 2vmin;
+    border-radius: 10px;
+    height: 25vh;
+
+    
+}
+.p1{
+    margin-top: 3vmin;
+    text-align: center;
+    font-size: 3vmin;
+    color: brown;
+
+}
+.p1::first-letter{
+    font-size: 6vmin;
+}
+
+.p2{
+     margin-top: 3vmin;
+    text-align: center;
+    font-size: 2vmin;
+    font-family:monospace;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Hover effect in more than 500px */
+
+
+@media all and (min-width:500px){
+
+
+.m div a{
+   
+    width: fit-content;
+    text-align: center;
+    padding: 0.8vmin;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+    font-family: 'Charis SIL', serif;
+    color: black;
+    border: 0.1vw  black;
+    border-radius: 40%;
+    border-style: groove;
+    box-shadow: 0.25vmin 0.25vmin rgb(0 0 0 / 0.3) ;
+    font-size:1vw;
+}
+
+
+
+
+#personal:hover{
+    border: none;
+    box-shadow: 0.25vw 0.25vw rgb(0 0 0 / 0.3) inset;
+    text-decoration-thickness: 0.1vw;
+    text-decoration: underline ;
+    text-decoration-color:royalblue
+    
+    
+}
+#business:hover{
+    border: none;
+    box-shadow: 0.25vw 0.25vw rgb(0 0 0 / 0.3) inset;
+    text-decoration-thickness: 0.1vw;
+    text-decoration: underline ;
+    text-decoration-color:royalblue
+    
+}
+#priority:hover{
+    border: none;
+    box-shadow: 0.25vw 0.25vw rgb(0 0 0 / 0.3) inset;
+    text-decoration-thickness: 0.1vw;
+    text-decoration: underline ;
+    text-decoration-color:royalblue
+    
+}
+#about:hover{
+    border: none;
+    box-shadow: 0.25vw 0.25vw rgb(0 0 0 / 0.3) inset;
+    text-decoration-thickness: 0.1vw;
+    text-decoration: underline ;
+    text-decoration-color:royalblue
+    
+}
+#investor:hover{
+    border: none;
+    box-shadow: 0.25vw 0.25vw rgb(0 0 0 / 0.3) inset;
+    text-decoration-thickness: 0.1vw;
+    text-decoration: underline ;
+    text-decoration-color:royalblue
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* Set Hover effect on Laptop devices */
+
+@media  all and (min-width:850px) {
+.product:hover .subp{
+    display: block;
+    
+
+}
+
+.deals:hover .subd{
+    display: block;
+}
+.makepayment:hover .subm{
+    display: block;
+}
+
+
+
+    
+}
+
+
+
+
+
+
+/* Photo Width  Setting Using Size in DropDown*/
+
+
+
+
+
+@media all and (max-width:1200px) and (min-width:580px){
+    .acc{
+        width: 20vmin;
+        height: 20vmin ;
+    }
+
+    .dep{
+         width: 10vmin;
+        height: 10vmin ;
+
+    }
+    .card{
+         width: 10vmin;
+        height: 10vmin ;
+
+    }
+    .loan{
+        width: 10vmin;
+        height: 10vmin;
+    }
+    .ins{
+        width: 10vmin;
+        height: 10vmin;
+    }
+
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For Tablet */
+
+
+@media all and (max-width:900px) {
+    .icon p{
+        margin-top: -0.5vh;
+    }
+    #watsapp{
+        margin-left: -4vw;
+    }
+
+
+
+
+    .icon p{
+        margin-top: 1vh;
+    }
+
+
+    .iconmenu:hover .greet{
+        display: none;
+    }
+
+
+    .other .search a{
+        font-size: 1.5vmin;
+    }
+
+    .login{
+
+        display: none;
+    }
+    .login1{
+        margin-top: 0px;
+        display: block;}
+    .history{
+        display: block;
+    }
+
+
+
+    .things{
+        grid-gap: 5vw;
+    }
+
+
+    .decorative{
+        
+        
+        display: grid;
+        height: 100%;
+        
+        
+        grid-auto-flow: row;
+        overflow: hidden;
+        
+        
+    }
+    .bankimage {
+        
+        width: 100vw;
+        
+
+    }
+    .bankimage{
+        /* margin:10vw 5vw; */
+    }
+    .bankimage img{
+       
+        width: 80%;
+        height:100%;
+        
+
+    }
+    .writing_text{
+        margin: 0vh 8vh;
+        margin-top: -40vh;
+        
+        
+    }
+    .writing_text .welcoming{
+        font-size: 4vmin;
+    }
+    .moto{
+        margin-top: 4vmin;
+        width: max-content;
+        font-size: 3.25vmin;
+    }
+
+
+  .container2{
+        grid-auto-flow: row;
+          
+          background:none;
+          background-color: azure;
+        grid-template-columns: none;
+    }
+
+    .s1{
+        margin-top: 5vh;
+    }
+    .s2{
+        font-size: 3vmin;
+        margin-top: 5vh;
+    }
+    .c1{
+        margin-top: 5vh;
+    }
+    .c2{
+        font-size: 3vmin;
+        margin-top: 5vh;
+    }
+    .sa1{
+        margin-top: 5vh;
+    }
+    .sa2{
+        font-size: 3vmin;
+        margin-top: 5vh;
+    }
+    .se1{
+        margin-top: 5vh;
+    }
+    .se2{
+        font-size: 3vmin;
+        margin-top: 5vh;
+    }
+    .n1{
+        margin-top: 5vh;
+    }
+    .n2{
+        font-size: 2.5vmin;
+        margin-top: 5vh;
+    }
+    .p1{
+        margin-top: 5vh;
+    }
+    .p2{
+        font-size: 3vmin;
+        margin-top: 5vh;
+    }
+
+    
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For Mobile */
+
+@media all and (max-width:500px) {
+
+
+
+    #mdropdown{
+        position:absolute;
+        display: block;
+        height: 5vmin;
+        width: 5vmin;
+        margin-left:4vmin;
+        
+       
+        
+    }
+    
+    
+    @keyframes anim {
+        100%{
+            margin-left:75vw;
+            
+        }
+    }
+
+ 
+
+    
+
+    #personal{
+        margin-left: 0;
+    }
+
+   
+
+    .type{
+        position: absolute;
+        display: grid;
+        width: 75vw;
+        grid-auto-flow: row;
+        overflow: hidden;
+        margin-top:2vw;
+        height: 95vh;
+        
+        justify-items: center;
+        border-radius: 10px;
+       
+    }
+
+    .type .m{
+        
+        width: 100%;
+        
+        
+       
+       
+        
+       
+    }
+
+
+
+    .m{
+        position: absolute;
+        margin-top: 1vh;
+        display: grid;
+        grid-auto-flow: row;
+        width:100%;
+        height: 100vh;
+        margin-left: 10vw;
+    }
+
+    .m a{
+        color: azure;
+        font-size: 3.5vmin;
+        text-decoration: none;
+        
+    }
+    
+    .other .search a{
+        margin-top: -0.25vh;
+        font-size: 2vmin;
+    }
+    
+    .other{
+        margin-left: 40vw;
+    }
+
+
+
+    .location{
+        margin-top: 0.25vh;
+    }
+
+
+    .icon p{
+        
+        font-size: 1.5vmin;
+    }
+    
+    .login{
+    
+        display: none
+    }
+
+    .things{
+        grid-gap: 35%;
+    }
+    .makepayment a p{
+        font-size: 2vmin;
+    }
+
+     /* .bankimage{
+        margin:20vw 15vw;
+    }  */
+
+    .writing_text{
+        margin-top: -50vw;
+        margin-left: 5vw;
+    }
+    
+    .writing_text .welcoming{
+        margin-top: 60vmin;
+    }
+    .writing_text .moto{
+        margin-top: 20vmin;
+    }
+
+    .login1{
+        margin-left: 15vmin;
+        display: block;
+        border: 0px;
+        
+        border-radius: 30%;
+    }
+    .history{
+                margin-left: 15vmin;
+        display: block;
+        border: 0px;
+        
+        border-radius: 30%;
+    }
+
+
+
+    /* Starting of the Container2 */
+    .container2{
+        grid-auto-flow: row;
+    }
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Set height In  Drop Down after 580px */
+
+@media all and (max-height:580px) {
+
+    #sne{
+        height: 80vh;
+    }
+    #categories{
+
+        height: 80vh;
+    }
+    .subd{
+        margin-top: 10vh;
+    }
+
+    .deals  p{
+        font-size: 2.5vmin;
+        /* margin-top: -0.15vmin; */
+
+    }
+    .product a p{
+        font-size: 2.5vmin;
+        /* margin-top: -0.15vmin; */
+    }
+    .makepayment a p{
+          font-size: 2.5vmin;
+        /* margin-top: -0.15vmin; */
+    }
+
+    a{
+        font-size: 4vmin;
+        text-align: left;
+       
+    }
+    li{
+        
+        list-style-type: none;
+        margin: 1vw;
+        padding: 0.75vw;
+    }
+    ul{
+        margin-top: 0vw;
+    }
+
+    
+    .subminfo ul li{
+        padding: 0px;
+        margin: 0px;
+    }
+    .subminfo{
+        height: 40vh;
+    }
+    .subminfo4 ul li{
+        padding: 0px;
+        margin: 0px;
+    }
+    .subminfo4{
+        height: 40vh;
+    }
+    .subminfo2 ul li{
+        padding: 0px;
+        margin: 0px;
+    }
+    .subminfo2{
+        height: 40vh;
+    }
+    .subminfo3 ul li{
+        padding: 0px;
+        margin: 0px;
+    }
+    .subminfo3{
+        height: 40vh;
+    }
+
+    
+
+    #subpInfo p{
+        margin:0px;
+    }
+    #subpInfo2 p{
+        margin:0px;
+    }
+    #subpInfo3 p{
+        margin:0px;
+    }
+    #subpInfo4 p{
+        margin:0px;
+    }
+    
+    #subpInfo5 p{
+        margin:0px;
+    }
+
+    
+   
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Set The Property At the height Will Come 350 and under */
+
+@media  all and (max-height:350px) {
+    .product:hover .subp{
+    display: none;
+    
+
+}
+
+.deals:hover .subd{
+    display: none;
+}
+.makepayment:hover .subm{
+    display: none;
+}
+
+.deals a p{
+    margin-top: 1vmin;
+}
+.product a p{
+    margin-top: 1vmin;
+}
+.makepayment a p{
+         
+        margin-top: 1vmin;
+}
+.login{
+    display: none;
+}
+
+}
+
+
